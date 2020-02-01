@@ -137,18 +137,18 @@ p {
 /* Showcase */
 @keyframes fade {
   33% {
-    background: url('/img/berkee.jpg') no-repeat center center/cover;
+    background: url('/img/123.jpeg') no-repeat center center/cover;
   }
   66% {
-    background: url('/img/berkl.jpg') no-repeat center center/cover;
+    background: url('/img/123123.jpeg') no-repeat center center/cover;
   }
   100% {
-    background: url('../img/Golden-Gate-Bridge-San-Francisco.jpg') no-repeat center center/cover;
+    background: url('/img/build.jpeg') no-repeat center center/cover;
   }
 }
 
 #showcase {
-  background: url('../img/downtown.jpg') no-repeat center center/cover;
+  background: url('/img/sf.jpeg') no-repeat center center/cover;
   height: 750px;
   animation-name: fade;
   animation-iteration-count: infinite;
@@ -180,7 +180,7 @@ p {
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url('/img/photo-1.jpg') no-repeat;
+  background: url('/img/grass.jpg') no-repeat;
   min-height: 100%;
 }
 
