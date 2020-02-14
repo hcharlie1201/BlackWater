@@ -13,6 +13,7 @@ html,body {
   width: 100%;
 }
 
+
 body {
   display: table;
   margin: 0;
@@ -39,6 +40,9 @@ p {
   padding: 0 20px;
 }
 
+.padding-top {
+  margin-top: 50px;
+}
 
 .text-primary {
   color: #f7c08a;
@@ -312,6 +316,68 @@ animation-duration: 8s;
   overflow: hidden;
 }
 
+.bg-img {
+  /* The image used */
+  background-image: url("/img/casey-horner-4rDCa5hBlCs-unsplash.jpg");
+
+  /* Control the height of the image */
+  min-height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container2 {
+  position: absolute;
+  right: 0;
+  margin-top: 100px;
+  margin-right: 50%;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
 #home-info .info-content p {
   padding-bottom: 30px;
 }
@@ -334,30 +400,6 @@ animation-duration: 8s;
 .box i {
   margin-bottom: 10px;
 }
-
-/* Sign up*/
-#signup {
-  width: 33.3%;
-  padding: 50px;
-  text-align:center;
-  display:block;
-  margin:0 auto;
-  margin-top: 15%;
-  background-color: #172861;
-}
-
-
-
-#signup a {
-  color: white;
-}
-
-
-#signup a:hover {
-  background: rgb(73, 122, 214);
-  color: #f5d0ab;
-}
-
 
 /* About Info */
 #about-info .info-right {
