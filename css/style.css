@@ -335,7 +335,7 @@ animation-duration: 8s;
   position: absolute;
   right: 0;
   margin-top: 100px;
-  margin-right: 50%;
+  margin-right: 70%;
   max-width: 300px;
   padding: 16px;
   background-color: white;
@@ -363,7 +363,7 @@ input[type=text]:focus, input[type=password]:focus {
 }
 
 /* Set a style for the submit button */
-.btn {
+.btn2 {
   background-color: #4CAF50;
   color: white;
   padding: 16px 20px;
@@ -371,9 +371,10 @@ input[type=text]:focus, input[type=password]:focus {
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
+  font-size: large;
 }
 
-.btn:hover {
+.btn2:hover {
   opacity: 1;
 }
 
