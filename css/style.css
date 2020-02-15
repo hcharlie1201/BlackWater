@@ -13,6 +13,7 @@ html,body {
   width: 100%;
 }
 
+
 body {
   display: table;
   margin: 0;
@@ -39,6 +40,9 @@ p {
   padding: 0 20px;
 }
 
+.padding-top {
+  margin-top: 50px;
+}
 
 .text-primary {
   color: #f7c08a;
@@ -144,6 +148,128 @@ p {
 
   animation-iteration-count: infinite;
   animation-duration: 10s;
+  background-color: greenyellow;
+  height: 750px;
+}
+
+.panel {
+  color: white;
+  height: 750px;
+  display: table;
+  margin: 0;
+  background: #1c1c1c;
+  padding: 0 0;
+}
+.panel .inner {
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.backgroundimg {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+#back1 {
+  background: url("/img/1_campanile_at_night.jpg") no-repeat center fixed;
+
+}
+
+#back2 {
+  background: url("/img/1_campanile_at_night.jpg") no-repeat center fixed;
+}
+
+#back3 {
+  background: url("/img/1_campanile_at_night.jpg") no-repeat center fixed;
+}
+
+#back4 {
+  background: url("/img/1_campanile_at_night.jpg") no-repeat center fixed;
+}
+
+#back5 {
+  background: url("/img/1_campanile_at_night.jpg") no-repeat center fixed;
+}
+
+@keyframes backgroundchangeFadeInOut {
+0% {
+  opacity:1;
+}
+17% {
+  opacity:1;
+}
+25% {
+  opacity:0;
+}
+92% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+@-webkit-keyframes backgroundchangeFadeInOut {
+0% {
+  opacity:1;
+}
+17% {
+  opacity:1;
+}
+25% {
+  opacity:0;
+}
+92% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+#backgroundchange div:nth-of-type(1) {
+animation-delay: 8s;
+-webkit-animation-delay: 8s;
+}
+#backgroundchange div:nth-of-type(2) {
+animation-delay: 6s;
+-webkit-animation-delay: 6s;
+}
+#backgroundchange div:nth-of-type(3) {
+animation-delay: 4s;
+-webkit-animation-delay: 4s;
+}
+#backgroundchange div:nth-of-type(4) {
+animation-delay: 2s;
+-webkit-animation-delay: 2s;
+}
+
+#backgroundchange div:nth-of-type(5) {
+animation-delay: 0;
+-webkit-animation-delay: 0;
+}
+
+#backgroundchange div {
+animation-name: backgroundchangeFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 8s;
+
+-webkit-animation-name: backgroundchangeFadeInOut;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-duration: 8s;
+>>>>>>> 8b05f8a7e5bfe578f3d2ca07a7fb630a166fae6b
 
 }
 
@@ -165,6 +291,8 @@ position:relative;
   line-height: 1.7em;
 }
 
+
+
 /* Home Info */
 #home-info {
   height: 400px;
@@ -173,7 +301,7 @@ position:relative;
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url('/img/grass.jpeg') no-repeat;
+  background: url('/img/grass.jpeg') no-repeat center center/cover;
   min-height: 100%;
 }
 
@@ -185,6 +313,69 @@ position:relative;
   padding: 50px 30px;
   overflow: hidden;
 }
+
+.bg-img {
+  /* The image used */
+  background-image: url("/img/casey-horner-4rDCa5hBlCs-unsplash.jpg");
+
+  /* Control the height of the image */
+  min-height: 800px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container2 {
+  position: absolute;
+  right: 0;
+  margin-top: 100px;
+  margin-right: 70%;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+select {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn2 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: large;
+}
+
+.btn2:hover {
+  opacity: 1;
+}
+
 
 #home-info .info-content p {
   padding-bottom: 30px;
@@ -210,6 +401,7 @@ position:relative;
 }
 
 
+
 /* Sign up*/
 #signup {
   width: 33.3%;
@@ -232,6 +424,7 @@ position:relative;
   background: rgb(73, 122, 214);
   color: #f5d0ab;
 }
+
 
 
 /* About Info */
