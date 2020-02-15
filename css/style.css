@@ -269,7 +269,7 @@ animation-duration: 8s;
 -webkit-animation-timing-function: ease-in-out;
 -webkit-animation-iteration-count: infinite;
 -webkit-animation-duration: 8s;
->>>>>>> 8b05f8a7e5bfe578f3d2ca07a7fb630a166fae6b
+
 
 }
 
@@ -505,7 +505,7 @@ input[type=text]:focus, input[type=password]:focus {
             height: 750px;
             width: 1800px;
               animation-name: fade;
-              animation-delay:1s;
+              animation-delay:2s;
 
               animation-iteration-count: infinite;
               animation-duration: 10s;
@@ -515,7 +515,7 @@ input[type=text]:focus, input[type=password]:focus {
                   height: 750px;
                   width: 1800px;
                     animation-name: fade;
-                    animation-delay:2s;
+                    animation-delay:4s;
 
                     animation-iteration-count: infinite;
                     animation-duration: 10s;
@@ -525,7 +525,7 @@ input[type=text]:focus, input[type=password]:focus {
                                     height: 750px;
                                     width: 1800px;
                                       animation-name: fade;
-                                      animation-delay:4s;
+                                      animation-delay:6s;
 
                                       animation-iteration-count: infinite;
                                       animation-duration: 10s;
@@ -535,7 +535,7 @@ input[type=text]:focus, input[type=password]:focus {
                                                                         height: 750px;
                                                                         width: 1800px;
                                                                           animation-name: fade;
-                                                                          animation-delay:6s;
+                                                                          animation-delay:8s;
 
                                                                           animation-iteration-count: infinite;
                                                                           animation-duration: 10s;
