@@ -511,7 +511,12 @@ width:0px;
   left: 36.5%;
 
 }
-#testimonials .testimonial:hover .center{
+#testimonials .testimonial .center:hover{
+-khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 opacity: 1;
 }
 
