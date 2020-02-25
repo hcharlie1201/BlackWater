@@ -372,6 +372,27 @@ input[type=text]:focus, input[type=password]:focus {
   font-size: large;
 }
 
+.btn3:hover {
+  opacity: 1;
+}
+
+.btn3:hover {
+  opacity: 1;
+}
+
+
+.btn3 {
+  background-color: #4CAF50;
+  color: white;
+  opacity: 0.9;
+  font-size: large;
+  display: inline-block;
+  padding: 50px 50px;
+  border: none;
+  cursor: pointer;
+  margin: 10% 50%
+}
+
 .btn2:hover {
   opacity: 1;
 }
@@ -423,6 +444,15 @@ input[type=text]:focus, input[type=password]:focus {
 #signup a:hover {
   background: rgb(73, 122, 214);
   color: #f5d0ab;
+}
+
+#signup .btn .bg-light .py-3 {
+  background-image: url("/img/casey-horner-4rDCa5hBlCs-unsplash.jpg");
+  min-height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 
