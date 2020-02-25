@@ -112,6 +112,8 @@ p {
   color: #fff;
 }
 
+
+
 #navbar h1 {
   float: left;
   padding-top: 20px;
@@ -136,6 +138,7 @@ p {
 #navbar ul li a.current {
   background: rgb(73, 122, 214);
   color: #f5d0ab;
+  border-radius:100%;
 }
 
 /* Showcase */
@@ -548,8 +551,8 @@ position:absolute;
       }
 .inner1 {
       position:absolute;
-      height: 750px;
-      width: 1800px;
+      height: 600px;
+      width: 100%;
         animation-name: fade;
         animation-delay:0s;
 
@@ -558,8 +561,8 @@ position:absolute;
       }
       .inner2 {
             position:absolute;
-            height: 750px;
-            width: 1800px;
+            height: 600px;
+            width: 100%;
               animation-name: fade;
               animation-delay:2s;
 
@@ -568,8 +571,8 @@ position:absolute;
             }
             .inner3 {
                   position:absolute;
-                  height: 750px;
-                  width: 1800px;
+                  height: 600px;
+                  width: 100%;
                     animation-name: fade;
                     animation-delay:4s;
 
@@ -578,8 +581,8 @@ position:absolute;
                   }
                   .inner4 {
                                     position:absolute;
-                                    height: 750px;
-                                    width: 1800px;
+                                    height: 600px;
+                                    width: 100%;
                                       animation-name: fade;
                                       animation-delay:6s;
 
@@ -588,8 +591,8 @@ position:absolute;
                                     }
                                     .inner5 {
                                                                         position:absolute;
-                                                                        height: 750px;
-                                                                        width: 1800px;
+                                                                        height: 600px;
+                                                                        width: 100%;
                                                                           animation-name: fade;
                                                                           animation-delay:8s;
 
