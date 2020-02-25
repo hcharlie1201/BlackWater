@@ -322,7 +322,6 @@ position:relative;
   background-image: url("/img/casey-horner-4rDCa5hBlCs-unsplash.jpg");
 
   /* Control the height of the image */
-  min-height: 800px;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -449,14 +448,6 @@ input[type=text]:focus, input[type=password]:focus {
   color: #f5d0ab;
 }
 
-#signup .btn .bg-light .py-3 {
-  background-image: url("/img/casey-horner-4rDCa5hBlCs-unsplash.jpg");
-  min-height: 800px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
 
 
 
