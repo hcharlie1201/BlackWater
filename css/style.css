@@ -37,10 +37,17 @@ p {
 
 /* Utility Classes */
 .container {
-  margin: auto;
+  margin:auto;
   max-width: 1100px;
   overflow: auto;
   padding: 0 20px;
+}
+
+.container3{
+max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+
 }
 
 .padding-top {
@@ -71,8 +78,8 @@ p {
 }
 
 .btn:hover {
-  background: #f7c08a;
-  color: #172861;
+  background: rgb(73, 122, 214);
+  color: #f5d0ab;
 }
 
 .btn-light {
@@ -149,18 +156,17 @@ p {
 
 #showcase {
 
-  height: 750px;
+  height: 645px;
 
 
   animation-iteration-count: infinite;
   animation-duration: 10s;
-  background-color: greenyellow;
-  height: 750px;
+  background-color: white;
 }
 
 .panel {
   color: white;
-  height: 750px;
+  height: 645px;
   display: table;
   margin: 0;
   background: #1c1c1c;
@@ -284,7 +290,8 @@ animation-duration: 8s;
 position:relative;
   color: #fff;
   text-align: center;
-  padding-top: 170px;
+  padding-top: 210px;
+  padding-right: 30%;
 }
 
 #showcase .showcase-content h1 {
@@ -393,6 +400,19 @@ input[type=text]:focus, input[type=password]:focus {
   width: 33.3%;
   padding: 50px;
   text-align:center;
+}
+
+
+.box_ex {
+float:left;
+height:75.5%;
+width:45.3%;
+text-align:center;
+right:2.5%;
+top:13%;
+border-radius: 10%;
+opacity:0.8;
+/*some effect for border*/
 }
 
 .box-big {
@@ -541,7 +561,7 @@ position:absolute;
 
 .inner {
       position:absolute;
-      height: 750px;
+      height: 645px;
       width: 1600px;
 
       }
@@ -555,47 +575,47 @@ position:absolute;
       }
 .inner1 {
       position:absolute;
-      height: 600px;
+      height: 645px;
       width: 100%;
         animation-name: fade;
         animation-delay:0s;
 
         animation-iteration-count: infinite;
-        animation-duration: 10s;
+        
       }
       .inner2 {
             position:absolute;
-            height: 600px;
+            height: 645px;
             width: 100%;
               animation-name: fade;
               animation-delay:2s;
 
               animation-iteration-count: infinite;
-              animation-duration: 10s;
+
             }
             .inner3 {
                   position:absolute;
-                  height: 600px;
+                  height: 645px;
                   width: 100%;
                     animation-name: fade;
                     animation-delay:4s;
 
                     animation-iteration-count: infinite;
-                    animation-duration: 10s;
+
                   }
                   .inner4 {
                                     position:absolute;
-                                    height: 600px;
+                                    height: 645px;
                                     width: 100%;
                                       animation-name: fade;
                                       animation-delay:6s;
 
                                       animation-iteration-count: infinite;
-                                      animation-duration: 10s;
+
                                     }
                                     .inner5 {
                                                                         position:absolute;
-                                                                        height: 600px;
+                                                                        height: 645px;
                                                                         width: 100%;
                                                                           animation-name: fade;
                                                                           animation-delay:8s;
@@ -604,56 +624,19 @@ position:absolute;
                                                                           animation-duration: 10s;
                                                                         }
 
-      @keyframes fade1 {
-        25% {
-          opacity:1;
 
-        }
-        100% {
-        opacity:0;
-        }
-      }
-      @keyframes fade2 {
-        50% {
-          opacity:1;
-        }
-        100% {
-        opacity:0;
-        }
-      }
-      @keyframes fade3 {
-
-        75% {
-          opacity:1;
-        }
-        100% {
-        opacity:0;
-        }
-      }
-      @keyframes fade4 {
-        33% {
-          opacity:0;
-
-        }
-        66% {
-          opacity:1;
-        }
-        100% {
-        opacity:0;
-        }
-      }
 
       @keyframes fade {
-        0%% {
+        0% {
           opacity:1;
 
         }
-        18% {
+        21% {
         opacity:1;}
         25% {
           opacity:0;
         }
-        93% {
+        96% {
         opacity:0;
         }
         100%{
@@ -665,6 +648,10 @@ position:absolute;
 /* Contact Form */
 #contact-form .form-group {
   margin-bottom: 20px;
+}
+
+.point:hover{
+color:#f5d0ab;
 }
 
 #contact-form label {
