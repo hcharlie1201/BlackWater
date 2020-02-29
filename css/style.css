@@ -554,6 +554,11 @@ position:relative;
 
 }
 
+.positioning {
+top:10%;
+left:10%;
+}
+
 .overlay1 {
 position:absolute;
 
@@ -569,7 +574,7 @@ position:absolute;
       animation-name: fade;
 
               animation-iteration-count: infinite;
-              animation-duration: 10s;
+              animation-duration: 0s;
 
 
       }
@@ -577,8 +582,13 @@ position:absolute;
       position:absolute;
       height: 645px;
       width: 100%;
+      -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
         animation-name: fade;
         animation-delay:0s;
+        animation-duration:12s;
 
         animation-iteration-count: infinite;
         
@@ -587,8 +597,13 @@ position:absolute;
             position:absolute;
             height: 645px;
             width: 100%;
+            -webkit-transition: opacity 1s ease-in-out;
+              -moz-transition: opacity 1s ease-in-out;
+              -o-transition: opacity 1s ease-in-out;
+              transition: opacity 1s ease-in-out;
               animation-name: fade;
-              animation-delay:2s;
+              animation-delay:3s;
+              animation-duration:12s;
 
               animation-iteration-count: infinite;
 
@@ -597,8 +612,13 @@ position:absolute;
                   position:absolute;
                   height: 645px;
                   width: 100%;
+                  -webkit-transition: opacity 1s ease-in-out;
+                    -moz-transition: opacity 1s ease-in-out;
+                    -o-transition: opacity 1s ease-in-out;
+                    transition: opacity 1s ease-in-out;
                     animation-name: fade;
-                    animation-delay:4s;
+                    animation-delay: 6s;
+                    animation-duration:12s;
 
                     animation-iteration-count: infinite;
 
@@ -608,7 +628,9 @@ position:absolute;
                                     height: 645px;
                                     width: 100%;
                                       animation-name: fade;
-                                      animation-delay:6s;
+                                      animation-delay:9s;
+                                      animation-timing-function: ease-in-out;
+                                       animation-duration:12s;
 
                                       animation-iteration-count: infinite;
 
@@ -631,12 +653,12 @@ position:absolute;
           opacity:1;
 
         }
-        21% {
+        27.7% {
         opacity:1;}
-        25% {
+        33.3% {
           opacity:0;
         }
-        96% {
+        91% {
         opacity:0;
         }
         100%{
