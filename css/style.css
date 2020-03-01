@@ -489,11 +489,12 @@ opacity:0.8;
 }
 
 #testimonials .testimonial {
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 30px;
+  margin-bottom: 15px;
   border-radius: 15px;
   opacity: 0.9;
   float:left;
+
 }
 
 #testimonials .testimonial img {
