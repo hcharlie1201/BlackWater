@@ -29,6 +29,12 @@ a {
 
 h1, h2, h3 {
   padding-bottom: 20px;
+
+
+}
+#about-info h1 {
+margin-top:0px;
+z-index:1;
 }
 
 p {
@@ -41,13 +47,13 @@ p {
   max-width: 1100px;
   overflow: auto;
   padding: 0 20px;
+  z-index:1;
 }
 
 .container3{
 max-width: 1100px;
   overflow: auto;
   padding: 0 20px;
-
 }
 
 .padding-top {
@@ -116,6 +122,7 @@ max-width: 1100px;
   background: #172861;
   color: #fff;
   overflow: auto;
+  z-index:1;
 }
 
 #navbar a {
@@ -126,7 +133,9 @@ max-width: 1100px;
 
 #navbar h1 {
   float: left;
-  padding-top: 20px;
+  padding-top: 3.5%;
+  padding-bottom:0px;
+  padding-left: 10.7%;
 }
 
 #navbar ul {
@@ -179,6 +188,7 @@ max-width: 1100px;
   max-width: 1100px;
   overflow: auto;
   padding: 0 20px;
+
 }
 
 .backgroundimg {
@@ -455,10 +465,14 @@ opacity:0.8;
 
 
 /* About Info */
+#about-info {
+z-index:30;
+}
 #about-info .info-right {
   float: right;
   width: 50%;
   min-height: 100%;
+  z-index:20;
 }
 
 #about-info .info-right img {
@@ -467,11 +481,18 @@ opacity:0.8;
   width: 70%;
   border-radius: 50%;
 }
+.new {
+z-index:1;
+position:absolute;
+
+}
 
 #about-info .info-left {
   float: left;
   width: 50%;
   min-height: 100%;
+  z-index:1;
+
 }
 
 /* Testimonials */
@@ -525,9 +546,32 @@ opacity:0.8;
 }
 
 .frontal{
-position:relative;
-z-index:67548;
+position:absolute;
+top:-4.1%;
+left:14.3%;
+height: 125px;
+width: 125px;
+z-index:0;
+
+
 }
+
+
+.showing {
+display:none;
+}
+.hiding {
+
+}
+.hiding:hover {
+display:none;
+}
+
+.showing:hover {
+z-index: 70000;
+display:inline;
+}
+
 .center {
 border-radius:0%;
 z-index:3;
@@ -593,7 +637,7 @@ position:absolute;
         animation-duration:12s;
 
         animation-iteration-count: infinite;
-        
+
       }
       .inner2 {
             position:absolute;
@@ -608,6 +652,7 @@ position:absolute;
               animation-duration:12s;
 
               animation-iteration-count: infinite;
+
 
             }
             .inner3 {
@@ -624,6 +669,7 @@ position:absolute;
 
                     animation-iteration-count: infinite;
 
+
                   }
                   .inner4 {
                                     position:absolute;
@@ -635,6 +681,7 @@ position:absolute;
                                        animation-duration:12s;
 
                                       animation-iteration-count: infinite;
+
 
                                     }
                                     .inner5 {
@@ -699,6 +746,7 @@ color:#f5d0ab;
   outline: none;
   border-color: #f7c08a;
 }
+
 
 /* Footer */
 #main-footer {
